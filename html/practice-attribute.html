@@ -1,0 +1,65 @@
+
+<!-- the type attribute is case insensitive: these are equivalent -->
+<input type="text">
+<input type="TeXt">
+
+<!-- the id attribute is case sensitive: they are not equivalent -->
+ <div id="myId"></div>
+ <div id="MyID"></div>
+
+
+ <nav>
+    <a href="#reg">Register</a>
+    <a href="#about">About</a>
+    <a href="#teachers">Instructors</a>
+    <a href="#feedback">Testimonials</a>
+ </nav>
+
+ <!-- id -->
+<section id="reg">
+    <h2>Machine Learning Workshop Tickets</h2>
+</section>
+
+<section id="about">
+    <h2>What you'll learn</h2>
+</section>
+
+<section id="teachers">
+    <h2>Your Instructors</h2>
+    <h3>Hal 900 <span>&amp;</span> EVE</h3>
+</section>
+
+<section id="feedback">
+    <h2>What it's like to learn good and do other stuff good too</h2>
+</section>
+
+<fieldset>
+    <legend>Question 5: Who is an aspiring load balancer?</legend>
+    <ul>
+        <li>
+            <input type="radio" name="q5" value="blendan" id="q5blendan">
+            <label for="q5blendan">Blendan Smooth</label>
+        </li>
+        <li>
+            <input type="radio" name="q5" value="hoover" id="q5hoover">
+            <label for="q5hoover">Hoover Sukhdeep</label>
+        </li>
+    </ul>
+</fieldset>
+
+<!-- tabindex -->
+<p>Click in any input, then hit the tab key.</p>
+<ol>
+    <li><input tabindex="3" value="3"></li>
+    <li><input tabindex="6" value="6"></li>
+    <li><input tabindex="2" value="2"></li>
+    <li><input tabindex="0" value="0"></li>
+    <li><input tabindex="0" value="0"></li>
+    <li><input tabindex="-1" value="-1"></li>
+    <li><input tabindex="0" value="0"></li>
+    <li><input tabindex="8" value="8"></li>
+    <li><input tabindex="1" value="1"></li>
+    <li><input tabindex="5" value="5"></li>
+    <li><input tabindex="7" value="7"></li>
+    <li><input tabindex="4" value="4"></li>
+</ol>
