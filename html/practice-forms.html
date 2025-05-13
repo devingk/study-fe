@@ -1,0 +1,31 @@
+<link href="../css/practice-forms.css" rel="stylesheet">
+
+<dialog open aria-labelledby="dialogid">
+    <form action="thankyou.php">
+        <button type="submit" aria-label="close" formmethod="dialog" formnovalidate>X</button>
+        <h2 id=""dialogid">Application</h2>
+        <p>All fields are required</p>
+        <p>
+            <label>Name:
+                <input type="text" name="name" required />
+            </label>
+        </p>
+        <p>
+            <label>Warranty:
+                <input type="number" min="0" max="10" name="warranty" required />
+            </label>
+        </p>
+        <p>
+            <label>Power source:
+                <select name="powersource">
+                    <option>AC/DC</option>
+                    <option>Battery</option>
+                    <option>Solar</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <button type="submit" formmethod="post">Submit</button>
+        </p>
+    </form>
+</dialog>
