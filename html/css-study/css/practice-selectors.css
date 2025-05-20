@@ -1,0 +1,28 @@
+article p:first-of-type {
+    color: red;
+    font-size: 1.5em;
+}
+
+* {
+    color: hotpink;
+}
+
+section {
+    padding: 2em;
+}
+
+.my-class {
+    color: blue
+}
+
+#my-id {
+    color: gray
+}
+
+[my-attribute] {
+    color: black
+}
+
+[my-attribute='primary'] {
+    color: green
+}
