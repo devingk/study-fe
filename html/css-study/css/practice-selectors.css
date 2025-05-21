@@ -26,3 +26,59 @@ section {
 [my-attribute='primary'] {
     color: green
 }
+
+/* grouping selectors  */
+strong,
+em,
+.my-class,
+[lang] {
+    color: orange
+}
+
+/* Pseudo-classes */
+a:hover {
+    outline: 1px dotted green;
+}
+
+p:nth-child(even) {
+    background: floralwhite;
+}
+
+/* Pseudo-element */
+.my-elenet::before {
+    content: 'Prefix - ';
+}
+
+li::marker {
+    color: red;
+}
+
+::selection {
+    background: black;
+    color: white;
+}
+
+/* Descendant combinator */
+p storng {
+    color: red;
+}
+
+/* child combinator */
+p > storng {
+    color: orange;
+}
+
+/* adjacent sibling combinator */
+p + strong {
+    color: yellow;
+}
+
+/* general sibling combinator */
+p ~ strong {
+    color: green;
+}
+
+/* compound selectors */
+a.my-class {
+    color: red;
+}
