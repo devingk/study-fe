@@ -1,0 +1,45 @@
+
+/* Numbers */
+p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+/* Percentages */
+div {
+    width: 300px;
+    height: 100px;
+}
+
+div p {
+    width: 50%;
+    margin-top: 50% /* calculated: 150px */;
+    padding-left: 50%; /* calculated: 150px */;
+    transform: translateX(10%);
+}
+
+/* Absolute lengths */
+/* cm, mm, Q, in, pc, pt, px */
+.absolute {
+    width: 10cm;
+    height: 5cm;
+    background: back;
+}
+
+/* Relative lengths */
+/* Font-size-relative units: em, ex, cap, ch, ic, rem, lh, rlh */
+/* Viewport-relative-units: vw, vh, vi, vb, vmin, vmax */
+.relative1 {
+    width: 10vx;
+}
+
+.relative2 {
+    max-width: 60ch;
+}
+
+/* Angle units */
+.angle {
+    width: 150px;
+    height: 150px;
+    transform: rotate(60deg);
+}
