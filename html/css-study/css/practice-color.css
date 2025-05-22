@@ -1,0 +1,20 @@
+
+/* Hex colors */
+h1 {
+    color: #b71540;
+}
+
+/* RGB */
+h2 {
+    color: rgb(183, 21, 64)
+}
+
+/* HSL (Hue, Saturation, Lightness) */
+h3 {
+    color: hsl(344, 79%, 40%);
+}
+
+/* Color keywords */
+h4 {
+    color: silver;
+}
