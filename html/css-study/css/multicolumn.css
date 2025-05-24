@@ -1,0 +1,10 @@
+.countries {
+    column-count: 2;
+    column-gap: 1em;
+}
+
+.countries2 {
+    width: 100%;
+    column-width: 260px;
+    column-gap: 1em;
+}
