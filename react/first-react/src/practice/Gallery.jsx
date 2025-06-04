@@ -1,4 +1,4 @@
-import Profile from "./Profile";
+import Profile from "./practice/Profile";
 
 export default function Gallery() {
 
