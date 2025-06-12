@@ -7,6 +7,7 @@ import Props from './practice/Props.jsx'
 import ConditionalRendering from './practice/ConditionalRendering.jsx'
 import List from './practice/List.jsx'
 import AdvancedList from './practice/AdvancedList.jsx'
+import PureFunction from './practice/PureFunction.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,5 +18,6 @@ createRoot(document.getElementById('root')).render(
     <ConditionalRendering />
     <List />
     <AdvancedList />
+    <PureFunction />
   </StrictMode>
 )
