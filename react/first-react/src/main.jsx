@@ -10,6 +10,7 @@ import AdvancedList from './practice/AdvancedList.jsx'
 import PureFunction from './practice/PureFunction.jsx'
 import RenderTree from './practice/render tree/RenderTree.jsx'
 import Event from './practice/evemt/Event.jsx'
+import State from './practice/state/State.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -23,5 +24,7 @@ createRoot(document.getElementById('root')).render(
     <PureFunction />
     <RenderTree />
     <Event />
+    <State />
+    <State />
   </StrictMode>
 )
