@@ -13,6 +13,8 @@ import Event from './practice/evemt/Event.jsx'
 import State from './practice/state/State.jsx'
 import Clock from './practice/render/Clock.jsx'
 import Render from './practice/render/Render.jsx'
+import Form from './practice/snapshot/Form.jsx'
+import Counter from './practice/snapshot/Counter.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -29,5 +31,7 @@ createRoot(document.getElementById('root')).render(
     <State />
     <State />
     <Render />
+    <Form />
+    <Counter />
   </StrictMode>
 )
