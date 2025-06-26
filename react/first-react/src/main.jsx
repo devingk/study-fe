@@ -15,6 +15,7 @@ import Clock from './practice/render/Clock.jsx'
 import Render from './practice/render/Render.jsx'
 import Form from './practice/snapshot/Form.jsx'
 import Counter from './practice/snapshot/Counter.jsx'
+import BatchCounter from './practice/batch/BatchCounter.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -33,5 +34,6 @@ createRoot(document.getElementById('root')).render(
     <Render />
     <Form />
     <Counter />
+    <BatchCounter />
   </StrictMode>
 )
